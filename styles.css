@@ -1,3 +1,46 @@
-#city-text {
-    color : #BA5B15;
+body {
+  font-family: 'Montserrat', sans-serif;
 }
+
+#city-text {
+  color: #BA5B15;
+}
+
+@media screen and (max-width: 700px) {
+  .hide {
+      display: none;
+  }
+  .shrink {
+    font-size: medium;
+  }
+  .col-1 {
+    flex: 0 0 auto;
+    width: auto;
+  }
+  .col-3 {
+    flex: 0 0 auto;
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 1180px) {
+  .hide-med {
+      display: none;
+  }
+  .h1 {
+    font-size : large;
+  }
+
+  .h3 {
+    font-size: medium;
+  }
+
+  .h4 {
+    font-size : medium;
+  }
+
+  div {
+    font-size: small;
+  }
+}
+
